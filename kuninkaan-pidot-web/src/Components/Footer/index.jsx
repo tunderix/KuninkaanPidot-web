@@ -13,19 +13,19 @@ export default class Footer extends Component {
 
 					<form action="#" method="post">
             <div className="field half first">
-              <label>Name</label>
-              <input name="name" id="name" type="text" placeholder="Name"></input>
+              <label>Nimi</label>
+              <input name="name" id="name" type="text" placeholder="Nimi"></input>
             </div>
               <div className="field half">
-                <label>Email</label>
-                <input name="email" id="email" type="email" placeholder="Email"></input>
+                <label>Sähköposti</label>
+                <input name="email" id="email" type="email" placeholder="Sähköposti"></input>
               </div>
               <div className="field">
-                <label>Message</label>
-                <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                <label>Viesti</label>
+                <textarea name="message" id="message" rows="6" placeholder="Viesti"></textarea>
               </div>
               <ul className="actions">
-                <li><input value="Send Message" className="button alt" type="submit"></input></li>
+                <li><input value="lähetä" className="button alt" type="submit"></input></li>
               </ul>
 					</form>
 
